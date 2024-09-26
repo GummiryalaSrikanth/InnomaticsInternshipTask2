@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Company Directory Portal</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div id="container">
+      <h1>Company Directory Portal</h1>
+      <!-- Employee-Form -->
+      <section id="employee-form">
+        <h2>Employee Registration Form</h2>
+        <form action="">
+          <div>
+            <label for="">Full Name : </label>
+            <input type="text" />
+          </div>
+          <div>
+            <label for="">Email : </label>
+            <input type="text" />
+          </div>
+          <div>
+            <label for="">Department : </label>
+            <select name="department" id="department">
+              <option value="IT">IT</option>
+              <option value="HR">HR</option>
+              <option value="Finance">Finance</option>
+              <option value="Marketing">Marketing</option>
+            </select>
+          </div>
+          <div>
+            <label for="">Employee ID : </label>
+            <input type="text" />
+          </div>
+          <div>
+            <label for="">Profile Picture URL : </label>
+            <input type="text" />
+          </div>
+          <button>Register Employee</button>
+        </form>
+      </section>
+      <!-- Employee-List -->
+      <section id="employee-list">
+        <h2>Employee List</h2>
+        <ol>
+          <li><a href="">John Doe - john@example.com</a></li>
+          <hr />
+          <li><a href="">Jane Smith - jane@example.com</a></li>
+          <hr />
+        </ol>
+      </section>
+      <!-- Employee-Details -->
+      <section id="employee-details">
+        <h2>Employee Details</h2>
+        <table>
+          <thead>
+            <tr>
+              <th>Name</th>
+              <th>Employee ID</th>
+              <th>Department</th>
+              <th>Profile Picture</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td>John Doe</td>
+              <td>12345</td>
+              <td>IT</td>
+              <td>
+                <img
+                  src="https://static.vecteezy.com/system/resources/thumbnails/005/129/844/small/profile-user-icon-isolated-on-white-background-eps10-free-vector.jpg"
+                  alt="John's profile"
+                />
+              </td>
+            </tr>
+            <tr>
+              <td>Jane Smith</td>
+              <td>67890</td>
+              <td>HR</td>
+              <td>
+                <img
+                  src="https://static.vecteezy.com/system/resources/thumbnails/005/129/844/small/profile-user-icon-isolated-on-white-background-eps10-free-vector.jpg"
+                  alt="Jane's profile"
+                />
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </section>
+      <!-- Company Location -->
+      <section id="map">
+        <h2>Company Location</h2>
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3334.5033736521295!2d78.38741457446804!3d17.49803529960952!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bcb91f3fdf6bde9%3A0x752db86a6ab3be2a!2sInnomatics%20Research%20Labs!5e1!3m2!1sen!2sin!4v1727289114849!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </section>
+    </div>
+  </body>
+</html>
